@@ -19,6 +19,10 @@ allprojects {
     }
 }
 
+def isCi() {
+    project.hasProperty('CI') && CI.equals('true')
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

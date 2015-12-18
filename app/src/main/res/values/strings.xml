@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Magico</string>
+    <string name="button2_label">Button2</string>
+    <string name="button1_label">Button1</string>
+    <string name="submit_event_label">Submit was clicked</string>
+    <string name="cancel_event_label">Cancel was clicked</string>
 </resources>
