@@ -1,1 +1,1 @@
-include ':app', ':magicoapi', ':annotationprocessor', ':annotations'
+include ':annotationprocessor', ':annotations', ':app', ':magicoapi'
